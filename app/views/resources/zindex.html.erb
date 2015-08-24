@@ -1,0 +1,10 @@
+<h1>Best resources where to learn</h1>
+
+
+<ul id="resources">
+    <% @resources.each do |resource| %>
+    <li> <%= link_to resource.title, resource.url %> </li>
+    <% end %>
+</ul>
+
+This application was written using <%= link_to 'Cloud9 IDE', 'https://www.c9.io/' %>
