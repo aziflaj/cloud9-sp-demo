@@ -4,4 +4,8 @@ class ResourcesController < ApplicationController
         @resources = Resource.all
     end
     
+    def welcome
+        @message = 'Welcome to this site'
+    end
+    
 end
